@@ -14,9 +14,10 @@ const {
 // App Config
 const app = express();
 
-const port = process.env.PORT || 8000;
+const port = 8000;
 
-const connection_url = process.env.MONGO_URI;
+const connection_url =
+  "mongodb+srv://kiran:kiran@cluster0.6zelewg.mongodb.net/?retryWrites=true&w=majority";
 // Middlewares
 
 // convert to json
