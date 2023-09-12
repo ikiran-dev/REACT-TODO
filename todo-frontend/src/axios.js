@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: "https://react-todo-api-git-master-ikiran-dev.vercel.app/",
 });
 
 export default instance;
