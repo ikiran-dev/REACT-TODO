@@ -49,5 +49,5 @@ app.put("/todos/:id", updateTodos);
 app.delete("/todos/:id", deleteTodos);
 // Listener
 app.get("/", (req, res) => {
-  res.status(200).send("Hello World");
+  res.status(200).send("Welcome to todo app api , please go to /todos.");
 });
